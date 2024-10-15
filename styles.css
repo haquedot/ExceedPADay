@@ -409,6 +409,32 @@ body {
     color: #000;
 }
 
+
+#mapSection .card-1 h5 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 12px;
+}
+
+#mapSection .card-1 p {
+    color: #D1D1D1;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    letter-spacing: 0.36px;
+}
+
+#mapSection .card-1 p span{
+    color: #F18234;
+}
+
+
+
 @media (min-width: 768px) {
 
     #heroSection .hero-content h1 {
@@ -430,9 +456,6 @@ body {
         border-radius: 22px;
     }
 
-    #heroSection .hero-content .paday-info .border-lg-end {
-        border-right: 2px solid #FFF;
-    }
 
     #heroSection .hero-content .paday-info h5 {
         font-size: 18px;
@@ -518,6 +541,15 @@ body {
     #takeawaySection p {
         font-size: 18px;
     }
+
+
+}
+
+@media (min-width: 992px) {
+    #heroSection .hero-content .paday-info .border-lg-end {
+        border-right: 2px solid #FFF;
+    }
+
 
     #mapSection {
         height: 1208.69px;
@@ -638,17 +670,36 @@ body {
 
     #mapSection .card-1 {
         max-width: 433.52px;
-        left: 35%;
+        /* left: 35%; */
         position: absolute;
         z-index: 4;
+    }
+
+    #mapSection .card-1 h5 {
+        color: #FFF;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+        margin-bottom: 12px;
+    }
+
+    #mapSection .card-1 p {
+        color: #D1D1D1;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+        letter-spacing: 0.36px;
     }
 
     #mapSection .card-2 {
         max-width: 433.52px;
         margin-top: 80px;
         margin-left: 150px;
-        right: 10%;
-        top: 40%;
+        /* right: 10%; */
+        /* top: 40%; */
         position: absolute;
         z-index: 6;
     }
@@ -657,20 +708,19 @@ body {
         max-width: 433.52px;
         margin-top: 50px;
         left: 10%;
-        top: 60%;
+        top: 50%;
         position: absolute;
         z-index: 7;
     }
 
     #mapSection .card-4 {
         max-width: 433.52px;
-        margin-top: 120px;
+        /* margin-top: 120px; */
         margin-left: 90px;
         right: 10%;
-        top: 75%;
+        top: 60%;
         position: absolute;
         z-index: 8;
     }
-
 
 }
